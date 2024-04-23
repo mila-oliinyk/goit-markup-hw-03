@@ -27,7 +27,7 @@ ol {
 }
 
 .header {
-    border-bottom: 1px; color: #E7E9FC
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {

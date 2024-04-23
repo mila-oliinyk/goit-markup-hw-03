@@ -15,7 +15,39 @@ a {
 
 ul, ol {
    list-style-type: none;
+   padding: 0;
+   margin: 0;
 }  
+
+.container {
+    width: 1158px;
+    padding: 0.15px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px; color: #E7E9FC
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .logo {
     font-weight: 700;
@@ -25,6 +57,7 @@ ul, ol {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    margin-right: 76px;
 }
 
 .logo:hover,
@@ -47,6 +80,8 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+    display: block;
 }
 
 .nav-link:hover,
@@ -56,6 +91,7 @@ ul, ol {
 
 .address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-link {
@@ -147,6 +183,16 @@ button, select {
     background-color: #2e2f42;
 }
 
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+div {
+    display: block;
+}
+
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -155,6 +201,9 @@ button, select {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-right: 76px;
 }
 
 .logo-footer:hover,

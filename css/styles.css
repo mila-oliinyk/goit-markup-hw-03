@@ -13,7 +13,8 @@ a {
    text-decoration: none;
 }
 
-ul, ol {
+ul, 
+ol {
    list-style-type: none;
    padding: 0;
    margin: 0;
